@@ -1,0 +1,4 @@
+.Main-Full-Height-Content {
+    overflow-y: auto;
+    height: calc(100vh - 120px)
+}
