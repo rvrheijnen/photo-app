@@ -15,7 +15,7 @@ export default class AlbumList extends React.Component {
         search: ""
     };
         
-     componentWillMount() {
+    componentDidMount() {
          axios.get("https://jsonplaceholder.typicode.com/albums").then(res => {
              console.log(res);
              this.setState({ albums: res.data })
